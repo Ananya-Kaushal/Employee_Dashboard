@@ -8,30 +8,30 @@
   </head>
   <body>
     <h3>New Employees</h3>
-    <br><br>
+    <br /><br />
     <div class="form">
-      <!-- <form> -->
-        <div class="column">
-          <label for="name">Enter Name</label><br /><br />
-          <input type="text" id="name" name="name" />
-        </div>
-        <div class="column">
-          <label for="profession">Enter Profession</label><br /><br />
-          <input type="text" id="profession" name="profession" />
-        </div>
-        <div class="column">
-          <label for="age">Enter Age</label><br /><br />
-          <input type="number" id="age" name="age" />
-        </div>
-      <!-- </form> -->
+      <div class="column">
+        <label for="name">Enter Name</label><br /><br />
+        <input type="text" id="name" name="name" />
+      </div>
+      <div class="column">
+        <label for="profession">Enter Profession</label><br /><br />
+        <input type="text" id="profession" name="profession" />
+      </div>
+      <div class="column">
+        <label for="age">Enter Age</label><br /><br />
+        <input type="number" id="age" name="age" />
+      </div>
     </div>
-    <button>Add User</button>
-    <div class="error-msg">
-
-    </div>
-    <br>
-    <br>
+    <button id="addUser">Add User</button>
+    <h3 id="error-msg"></h3>
+    <br />
+    <br />
     <h3>Added Employees</h3>
-    <h3 class="removable">You have 0 Employees.</h3>
+    <h3 id="removable">You have 0 Employees.</h3>
+    <div id="employeeList" class="employee-list"></div>
+
+
+    <script src="./app.js"></script>
   </body>
 </html>
