@@ -7,17 +7,31 @@
     <title>Employee Dashboard</title>
   </head>
   <body>
-    <h1>New Employees</h1>
+    <h3>New Employees</h3>
+    <br><br>
     <div class="form">
-      <form>
-        <label for="name">Enter Name</label>
-        <input type="text" id="name" name="name" /><br /><br />
-        <label for="profession">Enter Profession</label>
-        <input type="text" id="profession" name="profession" /><br /><br />
-        <label for="age">Enter Age</label>
-        <input type="number" id="age" name="age" /><br /><br />
-        <button>Add User</button>
-      </form>
+      <!-- <form> -->
+        <div class="column">
+          <label for="name">Enter Name</label><br /><br />
+          <input type="text" id="name" name="name" />
+        </div>
+        <div class="column">
+          <label for="profession">Enter Profession</label><br /><br />
+          <input type="text" id="profession" name="profession" />
+        </div>
+        <div class="column">
+          <label for="age">Enter Age</label><br /><br />
+          <input type="number" id="age" name="age" />
+        </div>
+      <!-- </form> -->
     </div>
+    <button>Add User</button>
+    <div class="error-msg">
+
+    </div>
+    <br>
+    <br>
+    <h3>Added Employees</h3>
+    <h3 class="removable">You have 0 Employees.</h3>
   </body>
 </html>
